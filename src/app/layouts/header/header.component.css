@@ -1,0 +1,81 @@
+.navbar{
+    width:100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color:	#F0F0F0;
+    display:flex;
+    justify-content:flex-start;
+    position: fixed;
+    top:0;
+    z-index: 2;
+    height: 75px;
+  }
+  
+  .logu{
+    position:relative;
+    height:45px;
+    top:2px;
+    left:0%;
+    padding: 0;
+  }
+
+  .loguflex{
+    display: flex;
+    position: absolute;
+    left:10px;
+    width: 40%;
+    justify-content: center;
+  }
+  
+
+  .nav-icons{
+    display: flex;
+    position: absolute;
+    right: 0;
+    width:24%;
+    height: 50px;;
+
+  }
+
+  .circle-log{
+    position: relative;
+    margin-top: 15px;
+    width:28px;
+    height:28px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color:#3683F0;
+    text-align: center;
+    color:white;
+    text-align: center;
+    align-items: center;
+
+  }
+
+  .circle-log i{
+   
+    position: relative;
+    top:0.5px;
+    
+  }
+
+  .img-icon{
+
+    position: relative;
+    top: 15px;
+    width:28px;
+    height:28px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: rgb(141, 141, 142);
+    text-align: center;
+    color:white;
+
+  }
+
+  .menu-three{
+    position: relative;
+    font-size: 20px;
+    color:#3683F0;
+    top:14px;
+    margin-left: 10px;
+  }

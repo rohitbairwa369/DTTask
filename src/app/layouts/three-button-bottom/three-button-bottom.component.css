@@ -1,0 +1,84 @@
+.left-three-buttons{
+    display:flex;
+    flex-direction:column;
+    width:100px;
+    align-items:center;
+    position:fixed;
+    right:0;
+    bottom:0;
+    
+  }
+  
+  .menus-circle{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    margin:5px;
+    border:none;
+    background-color:blue;
+    cursor: pointer;
+  }
+
+
+  .menus-circle i{
+    font-size: 30px;
+    color:white;
+  }
+
+  .menus-circle img.discussion{
+    position: relative;
+    width:30px;
+    right:-3px;
+    top:2px;
+  }
+
+  .menus-circle img.calender{
+    position: relative;
+    width:34px;
+    right:-2px;
+    top:1px;
+  }
+
+
+
+/* right collapse */
+
+.right-collapse{
+    position:fixed;
+    top:99px;
+    right:0;
+    width:80px; 
+    border:1px solid;
+    border-radius:20px 0 0 20px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .collapse-in{
+    width: 50px;
+    height: 317px;
+    border-radius: 15px 0 0 15px;
+    border: none;
+    background-color: black;
+  }
+  
+  .collapse-in span{
+    position:relative;
+    color: white;
+    font-size: 36px;
+    top:10px;
+    left:5px; 
+  }
+  
+  .collastext{
+    position:relative;
+    color:white;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    top:22px;
+    left:13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+  }

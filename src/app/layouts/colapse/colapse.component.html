@@ -1,0 +1,28 @@
+<div class="colapse-box" *ngIf="hideshow">
+    <div class="colapse-header">
+        <span class="textwi">Journey Board</span>
+        <div class="circle" (click)="toggle()">
+            <i class="fa fa-arrow-circle-left">
+            </i>
+        </div>
+    </div>
+    <br>
+    <li class="hedlis"><b>{{main_title}}</b></li>
+    <ul class="colapse-list">
+        <li  *ngFor="let title of titles">{{title.asset_title}}</li>
+    </ul>
+</div>
+
+<!-- in container -->
+
+<div class="colapse-box-in" *ngIf="!hideshow">
+    <div class="colapse-header-in">
+        <div class="circle-in" (click)="toggle()">
+            <i class="fa fa-arrow-circle-right">
+            </i>
+        </div>
+        <div class="rectangle-in">
+            <p>1</p>
+        </div>
+    </div>
+</div>

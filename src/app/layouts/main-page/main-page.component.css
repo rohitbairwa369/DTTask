@@ -1,0 +1,33 @@
+.main-header{
+    position: relative;
+    width: 672px;
+    top: 78px;
+    left: 191px;
+    font-size: 28px;
+    font-weight: 700;
+    color: blue;
+}
+
+
+.header-below{
+    position: relative;
+    width: 75%;
+    top: 90px;
+    left: 196px;
+    background-color: #E9ECEF;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.header-below p{
+  padding: auto;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 3px;
+}
+
+.header-below span{
+    padding: auto;
+    font-size: 15px;
+    margin-bottom: 3px;
+  }

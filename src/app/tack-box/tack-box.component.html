@@ -1,0 +1,18 @@
+<div class="main-content">
+
+
+<div class="task-conrainer"  *ngFor="let arr of asset">
+    <div class="task-container-header">
+        <div class="task-container-header-text">
+            {{arr.asset_title}}
+        </div>
+        <i class="fa fa-info-circle" (click)="hideshow()">
+        </i>
+    </div>
+    <div class="task-info scale-in-ver-top" *ngIf="show">
+      <b>Description: </b>
+      <span> {{arr.asset_description}}</span>
+    </div>
+
+    <iframe width="531" height="315" src="{{arr.asset_content}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
