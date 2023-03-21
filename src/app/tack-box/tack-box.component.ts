@@ -14,15 +14,6 @@ hideshow(){
   return this.show= ! this.show;
 }
 
-apidata:any;
-constructor(private getdata:TaskdataService){
-  
-  getdata.getdata().subscribe((data)=>{
-    this.apidata= data;
-    console.warn("data" ,data);
-  })
-}
-
 asset:any=[
   {
     "asset_id": 18883,

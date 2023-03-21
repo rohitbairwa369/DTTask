@@ -7,15 +7,4 @@ import { TaskdataService } from './services/taskdata.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'DTtask';
-
-  apidata:any;
-  constructor(private getdata:TaskdataService){
-  
-    getdata.getdata().subscribe((res)=>{
-      this.apidata= res;
-      console.log("Data is Here",this.apidata);
-    })
-  }
-  
 }

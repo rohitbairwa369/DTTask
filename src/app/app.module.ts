@@ -10,7 +10,6 @@ import { MainPageComponent } from './layouts/main-page/main-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ButtonSubComponent } from './layouts/button-sub/button-sub.component';
 import { ThreeButtonBottomComponent } from './layouts/three-button-bottom/three-button-bottom.component';
-import { ThreadbuilderComponent } from './threadbuilder/threadbuilder.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MainPageComponent,
     ButtonSubComponent,
     ThreeButtonBottomComponent,
-    ThreadbuilderComponent
   ],
   imports: [
     BrowserModule,
